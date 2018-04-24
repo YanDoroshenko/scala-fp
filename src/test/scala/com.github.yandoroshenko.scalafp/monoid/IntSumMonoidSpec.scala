@@ -5,6 +5,8 @@ import org.scalacheck.{Arbitrary, Properties}
 
 import scala.reflect._
 
+class IntSumMonoidSpec extends MonoidSpec(MonoidInstances.intSumMonoid)
+
 /**
   * Created by Yan Doroshenko (yandoroshenko@protonmail.com) on 24.04.2018.
   */
